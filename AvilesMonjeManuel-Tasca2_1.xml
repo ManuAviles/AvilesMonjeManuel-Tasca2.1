@@ -1,98 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<grupo>
+<!--
+Lenguaje de Marcas 1rASIX
+Tarea 2.1 Creación de un fichero XML
+Manuel Avilés Monje
+-->
+<grupo idioma="castellano">
+  <!--Información Personal del Grupo (Nombre,año,generos,país)-->
   <nombre>Twenty One Pilots</nombre>
   <fechabanda> La banda se formó en 2009 </fechabanda>
   <tiposgeneros>
-        <genero> Alternative hip hop </genero>
-        <genero> Electropop </genero>
-        <genero> Indie pop </genero>
-        <genero> pop rock </genero>
-        <genero> rap rock </genero>
+    <genero> Alternative hip hop </genero>
+    <genero> Electropop </genero>
+    <genero> Indie pop </genero>
+    <genero> pop rock </genero>
+    <genero> rap rock </genero>
   </tiposgeneros>
   <pais> La banda nació en Columbus, Ohio (Estados Unidos) </pais>
+  <!--Páginas webs y videoclips del grupo-->
   <weboficial> http://www.twentyonepilots.com/home?ref=https://www.google.es/ </weboficial>
   <imagenbanda> http://www.braintocrush.com/wp-content/uploads/2016/09/TOP1.jpg </imagenbanda>
   <videoclipsyoutube>
-        <videoclip>https://www.youtube.com/watch?v=UprcpdwuwCg</videoclip>
-        <videoclip>https://www.youtube.com/watch?v=Pw-0pbY9JeU</videoclip>
-        <videoclip>https://www.youtube.com/watch?v=pXRviuL6vMY</videoclip>
+    <videoclip>https://www.youtube.com/watch?v=UprcpdwuwCg</videoclip>
+    <videoclip>https://www.youtube.com/watch?v=Pw-0pbY9JeU</videoclip>
+    <videoclip>https://www.youtube.com/watch?v=pXRviuL6vMY</videoclip>
   </videoclipsyoutube>
+  <!--Miembros actuales del grupo y los instrumentos que tocan-->
   <losmiembros>
-        <miembrosactuales>
-              <miembro>Tyler Joseph</miembro>
-                  <instrumentos>Voz principal</instrumentos>
-                  <instrumentos>Piano</instrumentos>
-                  <instrumentos>Teclado</instrumentos>
-                  <instrumentos>Sintetizadores</instrumentos>
-                  <instrumentos>Ukelele</instrumentos>
-                  <instrumentos>Bajo</instrumentos>
-              <miembro>Josh Dun</miembro>
-                  <instrumentos>Bateria</instrumentos>
-                  <instrumentos>Percusión</instrumentos>
-        </miembrosactuales>
+    <miembrosactuales>
+      <miembro>Tyler Joseph</miembro>
+      <instrumentos>Voz principal</instrumentos>
+      <instrumentos>Piano</instrumentos>
+      <instrumentos>Teclado</instrumentos>
+      <instrumentos>Sintetizadores</instrumentos>
+      <instrumentos>Ukelele</instrumentos>
+      <instrumentos>Bajo</instrumentos>
+      <miembro>Josh Dun</miembro>
+      <instrumentos>Bateria</instrumentos>
+      <instrumentos>Percusión</instrumentos>
+    </miembrosactuales>
   </losmiembros>
+  <!--Grupos parecidos a Twenty One Pilots-->
   <gruposrelacionados>
-        <grupo>Demons Imagine Dragons</grupo>
-        <grupo>Linkin Park</grupo>
-        <grupo>Coldplay</grupo>
-        <grupo>Mcfly</grupo>
+    <grupo>Demons Imagine Dragons</grupo>
+    <grupo>Linkin Park</grupo>
+    <grupo>Coldplay</grupo>
+    <grupo>Mcfly</grupo>
   </gruposrelacionados>
-  <discografia>
-      <album>
-        <nombre>Twenty One Pilots</nombre>
-        <fechacreacion>29 de Diciembre de 2009</fechacreacion>
-        <discografica> Autopublicación </discografica>
-        <listacanciones>
-          <cancion duracion="4:52" order="1">Implicit Demand for Proof</cancion>
-          <cancion duracion="3:02" order="2">Fall Away</cancion>
-          <cancion duracion="3:34" order="3">The Pantaloon</cancion>
-          <cancion duracion="4:47" order="4">Addict With a Pen</cancion>
-          <cancion duracion="4:13" order="5">Friend, Please</cancion>
-          <cancion duracion="5:32" order="6">March to the Sea</cancion>
-          <cancion duracion="4:40" order="7">Johnny Boy</cancion>
-          <cancion duracion="3:37" order="8">Oh, Ms, Believer</cancion>
-          <cancion duracion="4:14" order="9">Air Catcher</cancion>
-          <cancion duracion="4:38" order="10">Trapdoor</cancion>
-          <cancion duracion="4:34" order="11">A Car, a Torch, a Death</cancion>
-          <cancion duracion="4:46" order="12">Taxi Cab</cancion>
-          <cancion duracion="3:53" order="13">Before You Start Your Day</cancion>
-          <cancion duracion="5:46" order="14">Isle of Flightless Birds</cancion>
-        </listacanciones>
-      </album>
-      <album>
-        <nombre>Regional At Best</nombre>
-        <fechacreacion>8 de Julio de 2011</fechacreacion>
-        <discografica> Autopublicación </discografica>
-        <listacanciones>
-          <cancion duracion="4:57"> 1. Slowtown</cancion>
-          <cancion duracion="4:10"> 2. Forest</cancion>
-          <cancion duracion="4:26"> 3. Glowing Eyes</cancion>
-          <cancion duracion="5:33"> 4. Kitchen Sink</cancion>
-          <cancion duracion="3:59"> 5. Anathema</cancion>
-          <cancion duracion="4:20"> 6. Lovely</cancion>
-          <cancion duracion="4:30"> 7. Ruby</cancion>
-          <cancion duracion="4:07"> 8. Be Concerned</cancion>
-          <cancion duracion="3:38"> 9. Clear</cancion>
-        </listacanciones>
-      </album>
-      <album>
-        <nombre>Vessel</nombre>
-        <fechacreacion>8 de Enero de 2013</fechacreacion>
-        <discografica>Fueled By Ramen</discografica>
-        <listacanciones>
-          <cancion duracion="5:08"> 1. Ode To Sleep</cancion>
-          <cancion duracion="4:23"> 2. Holding On To You</cancion>
-          <cancion duracion="3:59"> 3. Migraine</cancion>
-          <cancion duracion="2:43"> 4. House Of Gold</cancion>
-          <cancion duracion="4:27"> 5. Car Radio</cancion>
-          <cancion duracion="4:14"> 6. Semi-Automatic</cancion>
-          <cancion duracion="3:49"> 7. Screen</cancion>
-          <cancion duracion="3:49"> 8. The Run And Go</cancion>
-          <cancion duracion="3:51"> 9. Fake You Out</cancion>
-          <cancion duracion="4:32"> 10.Guns For Hands</cancion>
-          <cancion duracion="4:27"> 11.Trees</cancion>
-          <cancion duracion="2:22"> 12.Truce</cancion>
-        </listacanciones>
-      </album>
+  <!-- Albums del grupo Twenty One Pilots -->
+  <discografia idioma="ingles">
+    <album>
+      <nombre>Twenty One Pilots</nombre>
+      <fechacreacion>29 de Diciembre de 2009</fechacreacion>
+      <discografica> Autopublicación</discografica>
+      <listacanciones>
+        <cancion duracion="4:52" order="1">Implicit Demand for Proof</cancion>
+        <cancion duracion="3:02" order="2">Fall Away</cancion>
+        <cancion duracion="3:34" order="3">The Pantaloon</cancion>
+        <cancion duracion="4:47" order="4">Addict With a Pen</cancion>
+        <cancion duracion="4:13" order="5">Friend, Please</cancion>
+        <cancion duracion="5:32" order="6">March to the Sea</cancion>
+        <cancion duracion="4:40" order="7">Johnny Boy</cancion>
+        <cancion duracion="3:37" order="8">Oh, Ms, Believer</cancion>
+        <cancion duracion="4:14" order="9">Air Catcher</cancion>
+        <cancion duracion="4:38" order="10">Trapdoor</cancion>
+        <cancion duracion="4:34" order="11">A Car, a Torch, a Death</cancion>
+        <cancion duracion="4:46" order="12">Taxi Cab</cancion>
+        <cancion duracion="3:53" order="13">Before You Start Your Day</cancion>
+        <cancion duracion="5:46" order="14">Isle of Flightless Birds</cancion>
+      </listacanciones>
+    </album>
+    <album>
+      <nombre>Regional At Best</nombre>
+      <fechacreacion>8 de Julio de 2011</fechacreacion>
+      <discografica> Autopublicación </discografica>
+      <listacanciones>
+        <cancion duracion="4:57" order="1">Slowtown</cancion>
+        <cancion duracion="4:10" order="2">Forest</cancion>
+        <cancion duracion="4:26" order="3">Glowing Eyes</cancion>
+        <cancion duracion="5:33" order="4">Kitchen Sink</cancion>
+        <cancion duracion="3:59" order="5">Anathema</cancion>
+        <cancion duracion="4:20" order="6">Lovely</cancion>
+        <cancion duracion="4:30" order="7">Ruby</cancion>
+        <cancion duracion="4:07" order="8">Be Concerned</cancion>
+        <cancion duracion="3:38" order="9">Clear</cancion>
+      </listacanciones>
+    </album>
+    <album>
+      <nombre>Vessel</nombre>
+      <fechacreacion>8 de Enero de 2013</fechacreacion>
+      <discografica>Fueled By Ramen</discografica>
+      <listacanciones>
+        <cancion duracion="5:08" order="1">Ode To Sleep</cancion>
+        <cancion duracion="4:23" order="2">Holding On To You</cancion>
+        <cancion duracion="3:59" order="3">Migraine</cancion>
+        <cancion duracion="2:43" order="4">House Of Gold</cancion>
+        <cancion duracion="4:27" order="5">Car Radio</cancion>
+        <cancion duracion="4:14" order="6">Semi-Automatic</cancion>
+        <cancion duracion="3:49" order="7">Screen</cancion>
+        <cancion duracion="3:49" order="8">The Run And Go</cancion>
+        <cancion duracion="3:51" order="9">Fake You Out</cancion>
+        <cancion duracion="4:32" order="10">Guns For Hands</cancion>
+        <cancion duracion="4:27" order="11">Trees</cancion>
+        <cancion duracion="2:22" order="12">Truce</cancion>
+      </listacanciones>
+    </album>
   </discografia>
 </grupo>
